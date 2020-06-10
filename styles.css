@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Proxima Nova", helvetica, sans-serif;
+}
+
+header {
+  position: relative;
+  padding-top: 10px;
+  margin: 2rem;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+}
+
+nav {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50%;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+.logo {
+  width: 150px;
+}
+
+.join-now {
+  background-color: #6601cc;
+  color: white;
+  border: none;
+}
+
+.sign-in {
+  border: 2px solid #6601cc4a;
+  background-color: white;
+}
+
+.btn {
+  border-radius: 5px;
+  font-weight: bold;
+  height: 30px;
+  width: 80px;
+  align-self: center;
+}
+
+/* Main */
+
+main {
+  position: relative;
+  height: 100vh;
+  background-image: repeating-radial-gradient();
+}
+
+.home-image {
+  width: 55vw;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: #230146;
+  height: 300px;
+}
+
+/* Photo by Leo Rivas on Unsplash */
